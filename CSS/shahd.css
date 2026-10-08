@@ -1,0 +1,133 @@
+ 
+  body{
+    background-color: rgb(245, 242, 248);
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ 
+ .parent{
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+   box-shadow:  0 0 3px 0 rgb(219, 219, 219);
+   /* background-color: white; */
+ }
+ input:hover{
+    border-color: blueviolet !important;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    background-color: #f5f3f3;
+}
+.password{
+    position: relative;
+}
+.link a{
+    color:blueviolet;
+    font-size: 17px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.remember input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+.sub{
+    cursor: pointer;
+    background-color: blueviolet;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+label{
+    font-size: 17px;
+}
+.or{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.or hr{
+    flex: 1;
+}
+.google{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(223, 221, 221);
+    /* background-color:rgb(218, 215, 215); */
+    border-radius: 10px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.google a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+.signup{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.signup a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 19px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+/* Responsive */
+@media (max-width: 969px) {
+  .parent{
+    width: 70%;
+  }
+
+}
+@media (max-width: 768px) {
+  .parent{
+    width: 80%;
+  }
+
+}
+@media (max-width: 480px) {
+     .parent{
+    width: 80%;
+  }
+}

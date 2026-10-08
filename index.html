@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/cards.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<header class="d-md-flex d-none" >
+    <h2>Team<span class="primery-color">Up</span> <sup>Beta</sup></h2>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Materials</a>
+        <a href="#">The Band</a>
+    </nav>
+<div>
+   <a href="login-page.html" class="text-decoration-none"> <button class="sign">Sign up</button></a>
+  <a href="shahd.html" class="text-decoration-none">  <button>login</button></a>
+    </div>
+</header> 
+<!--  -->
+<div class="header d-md-none d-flex justify-content-between">
+    
+    <h2>Team<span class="primery-color">Up</span><sup>Beta</sup></h2>
+    <button class="btn  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-list fs-2"></i></button>
+
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+     <nav class="d-flex flex-column">
+        <a href="index.html">Home</a>
+        <a href="#">Materials</a>
+        <a href="#">The Band</a>
+        <a href="login-page.html" class="log">Sign in</a>
+        <a href="shahd.html" class="log">Login</a>
+    </nav>
+
+  </div>
+</div>
+</div>
+<!--  -->
+<section class="home">
+    <div class="overlay"></div>
+    <div class="content">
+        <h1>
+<div class="line1 text-white" >Find Your PerfectTeam</div>
+<div class="line2">For Every Project</div>
+
+        </h1>
+        <p>
+            Connect with talented student,build you dream team,and achieve more together.
+        </p>
+       <a href="#card" class="text-decoration-none"> <button class="find">Find a Team</button></a>
+    </div>
+</section>
+<!--  -->
+ <div class="container">
+        <div class="top">
+            <span class=" fw-bold">Available Courses</span>
+            <h1 class="fw-bold">Find Your Team by Course</h1>
+            <small>Pick a course, register your details, and connect with classmates to build the perfect team.</small>
+        </div>
+         <div class="row " id="card">
+            <div class="col">
+                <div class="card dbCard" >
+                    <div class="img-box">
+                        <img src="../images/photo_2026-07-22_12-17-12.jpg" alt="...">
+                        <div>
+                            <p>Database Systems</p>
+                            <small>SQL & NoSQL</small>
+                        </div>
+                        <span class="dept">CS303</span>
+                        <span class="team"> Group</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex dataBase">
+                            <div>
+                                <!-- <span>⭐</span> -->
+                                <i class="fa-solid fa-star star"></i><br>
+                                <small>Degree</small><br>
+                                <small class="bold">15</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-users user"></i><br>
+                                <small>Students</small><br>
+                                <small class="bold">5 min</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days calender"></i><br>
+                                <small>Deadline</small><br>
+                                <small class="bold">Sep 10, 2026</small><br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Join a Team →</button>
+        <!--  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS303 </p>
+        <h3 class="modal-title fw-bold">Database Systems</h3>
+        <p>Enter your details to join a team for this course</p>
+      </div>
+      <div class="modal-body w-100">
+      <div class="form w-100">
+        <form action="" class="w-100">
+            <div class="name">
+            <label for="name">👤Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="enter your full name" class="w-100" required>
+            </div>
+            <div class="phone">
+            <label for=" phone">📱Phone Number</label>
+            <br>
+            <input id="phone" type="text" placeholder="01xxxxxxxxx" class="w-100" required>
+            </div>
+            <div class="id">
+            <label for=" s-id">🎓Student ID</label>
+            <br>
+            <input id="s-id" type="text" placeholder="e.g 2024123"class="w-100" required>
+            </div>
+            <div class="n-id">
+            <label for=" n-id">🪪National ID</label>
+            <br>
+            <input id="n-id" type="text" placeholder="Enter your national id" class="w-100" required>
+            </div>
+            <div class="selec w-100">
+              <label for="sel">📊How far are you in this course?</label>
+              <select name="" id="sel" class="w-100">
+                <option value="">Select your current level</option>
+                <option value="">Just started (Week 1-3)</option>
+                <option value=""> Halfway through (Week 4-8)</option>
+                <option value=""> Almost done (Week 9-12)</option>
+                <option value="">Final stage submission soon</option>
+              </select>
+            </div>
+            <input type="submit" value="Join a Team" class="submit btn-primary w-100 bbb mt-2">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card ModelCard" >
+                    <div class="img-box modeling-img-box modeling">
+                        <img src="../images/photo_2026-07-22_12-16-55.jpg" alt="...">
+                        <div>
+                            <p>Modeling</p>
+                            <small>Blender & Maya</small>
+                        </div>
+                        <span class="dept">ART302</span>
+                        <span class="team"> Group</span>
+                    </div>
+                    <div class="card-body modeling">
+                        <div class="d-flex modeling">
+                            <div>
+                                <i class="fa-solid fa-star star"></i><br>
+                                <small>Degree</small><br>
+                                <small class="bold">10</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-users user"></i><br>
+                                <small>Students</small><br>
+                                <small class="bold">5 max</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days calender"></i><br>
+                                <small>Deadline</small><br>
+                                <small class="bold">Aug 20, 2026</small><br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal2">Join a Team →</button>
+        <!--  -->
+           <div class="modal fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">ART302 </p>
+        <h3 class="modal-title fw-bold">Modeling</h3>
+        <p>Enter your details to join a team for this course</p>
+      </div>
+      <div class="modal-body w-100">
+      <div class="form w-100">
+        <form action="" class="w-100">
+            <div class="name">
+            <label for="name">👤Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="enter your full name" class="w-100" required>
+            </div>
+            <div class="phone">
+            <label for=" phone">📱Phone Number</label>
+            <br>
+            <input id="phone" type="text" placeholder="01xxxxxxxxx" class="w-100" required>
+            </div>
+            <div class="id">
+            <label for=" s-id">🎓Student ID</label>
+            <br>
+            <input id="s-id" type="text" placeholder="e.g 2024123"class="w-100" required>
+            </div>
+            <div class="n-id">
+            <label for=" n-id">🪪National ID</label>
+            <br>
+            <input id="n-id" type="text" placeholder="Enter your national id" class="w-100" required>
+            </div>
+            <div class="selec w-100">
+              <label for="sel">📊How far are you in this course?</label>
+              <select name="" id="sel" class="w-100">
+                <option value="">Select your current level</option>
+                <option value="">Just started (Week 1-3)</option>
+                <option value=""> Halfway through (Week 4-8)</option>
+                <option value=""> Almost done (Week 9-12)</option>
+                <option value="">Final stage submission soon</option>
+              </select>
+            </div>
+                <input type="submit" value="Join a Team" class="submit btn-primary w-100 bbb mt-2">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <!--  -->
+                    </div>
+                </div>
+            </div>
+            <div class="col
+            ">
+                <div class="card webCard" >
+                    <div class="img-box web-img-box web">
+                        <img src="../images/photo_2026-07-22_12-17-16.jpg" alt="...">
+                        <div>
+                            <p>Web Design</p>
+                            <small>HTML, CSS & JS</small>
+                        </div>
+                        <span class="dept">CS401</span>
+                        <span class="team"> Group</span>
+                    </div>
+                    <div class="card-body web">
+                        <div class="d-flex web">
+                            <div>
+                                <i class="fa-solid fa-star star"></i><br>
+                                <small>Degree</small><br>
+                                <small class="bold">20</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-users user"></i><br>
+                                <small>Students</small><br>
+                                <small class="bold">8 max</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days calender"></i><br>
+                                <small>Deadline</small><br>
+                                <small class="bold">Oct 1, 2026</small><br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal3">Join a Team →</button>
+           <div class="modal fade" id="exampleModal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS401 </p>
+        <h3 class="modal-title fw-bold">Web Design</h3>
+        <p>Enter your details to join a team for this course</p>
+      </div>
+      <div class="modal-body w-100">
+      <div class="form w-100">
+        <form action="" class="w-100">
+            <div class="name">
+            <label for="name">👤Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="enter your full name" class="w-100" required>
+            </div>
+            <div class="phone">
+            <label for=" phone">📱Phone Number</label>
+            <br>
+            <input id="phone" type="text" placeholder="01xxxxxxxxx" class="w-100" required>
+            </div>
+            <div class="id">
+            <label for=" s-id">🎓Student ID</label>
+            <br>
+            <input id="s-id" type="text" placeholder="e.g 2024123"class="w-100" required>
+            </div>
+            <div class="n-id">
+            <label for=" n-id">🪪National ID</label>
+            <br>
+            <input id="n-id" type="text" placeholder="Enter your national id" class="w-100" required>
+            </div>
+            <div class="selec w-100">
+              <label for="sel">📊How far are you in this course?</label>
+              <select name="" id="sel" class="w-100">
+                <option value="">Select your current level</option>
+                <option value="">Just started (Week 1-3)</option>
+                <option value=""> Halfway through (Week 4-8)</option>
+                <option value=""> Almost done (Week 9-12)</option>
+                <option value="">Final stage submission soon</option>
+              </select>
+            </div>
+             <input type="submit" value="Join a Team" class="submit btn-primary w-100 bbb mt-2">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+                    </div>
+
+                </div>
+            </div>
+            <!-- --------------------------- -->
+
+            <div class="col
+            ">
+                <div class="card cCard" >
+                    <div class="img-box C-img-box c">
+                        <img src="../images/photo_2026-07-22_12-16-47.jpg" alt="...">
+                        <div>
+                            <p>C++ Programming</p>
+                            <small>OOP, DS & Algorithms</small>
+                        </div>
+                        <span class="dept">CS201</span>
+                        <span class="team"> Group</span>
+                    </div>
+                    <div class="card-body c">
+                        <div class="d-flex C++ c">
+                            <div>
+                                <i class="fa-solid fa-star star"></i><br>
+                                <small>Degree</small><br>
+                                <small class="bold">15</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-users user"></i><br>
+                                <small>Students</small><br>
+                                <small class="bold">6 max</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days calender"></i><br>
+                                <small>Deadline</small><br>
+                                <small class="bold">Sep 5, 2026</small><br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal5">Join a Team →</button>
+                           <div class="modal fade" id="exampleModal5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS201</p>
+        <h3 class="modal-title fw-bold">C++ Programming</h3>
+        <p>Enter your details to join a team for this course</p>
+      </div>
+      <div class="modal-body w-100">
+      <div class="form w-100">
+        <form action="" class="w-100">
+            <div class="name">
+            <label for="name">👤Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="enter your full name" class="w-100" required>
+            </div>
+            <div class="phone">
+            <label for=" phone">📱Phone Number</label>
+            <br>
+            <input id="phone" type="text" placeholder="01xxxxxxxxx" class="w-100" required>
+            </div>
+            <div class="id">
+            <label for=" s-id">🎓Student ID</label>
+            <br>
+            <input id="s-id" type="text" placeholder="e.g 2024123"class="w-100" required>
+            </div>
+            <div class="n-id">
+            <label for=" n-id">🪪National ID</label>
+            <br>
+            <input id="n-id" type="text" placeholder="Enter your national id" class="w-100" required>
+            </div>
+            <div class="selec w-100">
+              <label for="sel">📊How far are you in this course?</label>
+              <select name="" id="sel" class="w-100">
+                <option value="">Select your current level</option>
+                <option value="">Just started (Week 1-3)</option>
+                <option value=""> Halfway through (Week 4-8)</option>
+                <option value=""> Almost done (Week 9-12)</option>
+                <option value="">Final stage submission soon</option>
+              </select>
+            </div>
+         <input type="submit" value="Join a Team" class="submit btn-primary w-100 bbb mt-2">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col
+            ">
+                <div class="card oopCard" >
+                    <div class="img-box oop-img-box OOP">
+                        <img src="../images/photo_2026-07-22_12-17-07.jpg" alt="...">
+                        <div>
+                            <p>OOP</p>
+                            <small>Object-Oriented Programming</small>
+                        </div>
+                        <span class="dept">CS202</span>
+                        <span class="team"> Group</span>
+                    </div>
+                    <div class="card-body OOP">
+                        <div class="d-flex OOP">
+                            <div>
+                                <i class="fa-solid fa-star star"></i><br>
+                                <small>Degree</small><br>
+                                <small class="bold">10</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-users user"></i><br>
+                                <small>Students</small><br>
+                                <small class="bold">8 max</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days calender"></i><br>
+                                <small>Deadline</small><br>
+                                <small class="bold">Oct 20, 2026</small><br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal6">Join a Team →</button>
+                           <div class="modal fade" id="exampleModal6" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS202</p>
+        <h3 class="modal-title fw-bold">Object-Oriented Programming</h3>
+        <p>Enter your details to join a team for this course</p>
+      </div>
+      <div class="modal-body w-100">
+      <div class="form w-100">
+        <form action="" class="w-100">
+            <div class="name">
+            <label for="name">👤Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="enter your full name" class="w-100" required>
+            </div>
+            <div class="phone">
+            <label for=" phone">📱Phone Number</label>
+            <br>
+            <input id="phone" type="text" placeholder="01xxxxxxxxx" class="w-100" required>
+            </div>
+            <div class="id">
+            <label for=" s-id">🎓Student ID</label>
+            <br>
+            <input id="s-id" type="text" placeholder="e.g 2024123"class="w-100" required>
+            </div>
+            <div class="n-id">
+            <label for=" n-id">🪪National ID</label>
+            <br>
+            <input id="n-id" type="text" placeholder="Enter your national id" class="w-100" required>
+            </div>
+            <div class="selec w-100">
+              <label for="sel">📊How far are you in this course?</label>
+              <select name="" id="sel" class="w-100">
+                <option value="">Select your current level</option>
+                <option value="">Just started (Week 1-3)</option>
+                <option value=""> Halfway through (Week 4-8)</option>
+                <option value=""> Almost done (Week 9-12)</option>
+                <option value="">Final stage submission soon</option>
+              </select>
+            </div>
+                    <input type="submit" value="Join a Team" class="submit btn-primary w-100 bbb mt-2">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col
+            ">
+                <div class="card dsCard" >
+                    <div class="img-box  ds-img-box ds">
+                        <img src="../images/photo_2026-07-22_12-17-12.jpg" alt="...">
+                        <div>
+                            <p>Data Structures</p>
+                            <small>Trees, Graphs & More</small>
+                        </div>
+                        <span class="dept">CS301</span>
+                        <span class="team"> Group</span>
+                    </div>
+                    <div class="card-body ds">
+                        <div class="d-flex DS">
+                            <div>
+                                <i class="fa-solid fa-star star"></i><br>
+                                <small>Degree</small><br>
+                                <small class="bold">20</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-users user"></i><br>
+                                <small>Students</small><br>
+                                <small class="bold">10 max</small><br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days calender"></i><br>
+                                <small>Deadline</small><br>
+                                <small class="bold">Sep 30, 2026</small><br>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal7">Join a Team →</button>
+                           <div class="modal fade" id="exampleModal7" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS301 </p>
+        <h3 class="modal-title fw-bold">Data Structures</h3>
+        <p>Enter your details to join a team for this course</p>
+      </div>
+      <div class="modal-body w-100">
+      <div class="form w-100">
+        <form action="" class="w-100">
+            <div class="name">
+            <label for="name">👤Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="enter your full name" class="w-100" required>
+            </div>
+            <div class="phone">
+            <label for=" phone">📱Phone Number</label>
+            <br>
+            <input id="phone" type="text" placeholder="01xxxxxxxxx" class="w-100" required>
+            </div>
+            <div class="id">
+            <label for=" s-id">🎓Student ID</label>
+            <br>
+            <input id="s-id" type="text" placeholder="e.g 2024123"class="w-100" required>
+            </div>
+            <div class="n-id">
+            <label for=" n-id">🪪National ID</label>
+            <br>
+            <input id="n-id" type="text" placeholder="Enter your national id" class="w-100" required>
+            </div>
+            <div class="selec w-100">
+              <label for="sel">📊How far are you in this course?</label>
+              <select name="" id="sel" class="w-100">
+                <option value="">Select your current level</option>
+                <option value="">Just started (Week 1-3)</option>
+                <option value=""> Halfway through (Week 4-8)</option>
+                <option value=""> Almost done (Week 9-12)</option>
+                <option value="">Final stage submission soon</option>
+              </select>
+            </div>
+                     <!-- <button type="button" class="submit btn-primary w-100  bbb"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal13">Join a Team →</button> -->
+         <input type="submit" value="Join a Team" class="submit btn-primary w-100 bbb mt-2">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+
+                </div>
+            </div>
+
+          </div>
+            </div>
+            <!--  -->
+            <div class="footer text-center ">
+                <h2 class="fw-bold mb-3">Team<span>Up</span></h2>
+                <p>Student Team-Matching Platform</p>
+                <div class=" text-center  " >
+                   <a href="#" class="text-decoration-none me-3">Home</a>
+        <a href="#" class="text-decoration-none me-3">Materials</a>
+        <a href="#" class="text-decoration-none ">The Band</a>
+                </div>
+                <hr>
+                <p>© 2025 TeamUp. All rights reserved</p>
+            </div>
+            <!--  -->
+                                   <div class="modal fade" id="exampleModal17" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS303</p>
+        <h3 class="modal-title fw-bold">Database Systems</h3>
+        <p>Enter your details to join a team for this course</p>
+        </div>
+        <div class="conn text-center mt-1">
+            <p>🎉</p>
+            <h3 class="fw-bold">Request Sent!</h3>
+            <p>Here's the team you'll be joining, 213</p>
+        </div>
+        <div class="cottt d-flex justify-content-between mx-3">
+           <div>
+            <p class="pre ">Team Name</p>
+            <h4 class="fw-bold">Pixel Pioneers</h4>
+           </div>
+           <p class="man text-center mt-3 pt-2">👥</p>
+        </div>
+        <p class="ms-3 mt-1"> Team Members</p>
+         <div class="cottt d-flex  mx-3 gx-5">
+             <p class="man text-center mt-3 pt-2 me-2">👥</p>
+       
+             <div>
+            <h6 class="fw-bold">Norhan Ali </h6>
+            <p>📱+20 01028630146</p>
+           
+           </div>
+           
+           </div>
+        
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Nor Mohamed </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Mohamed Ali </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+           <button  type="button" class=" close" data-bs-dismiss="modal"> Close</button>
+        </div>
+      </div>
+    </div>
+
+            <!--  -->
+                                   <div class="modal fade" id="exampleModal16" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">ART302</p>
+        <h3 class="modal-title fw-bold">Modeling</h3>
+        <p>Enter your details to join a team for this course</p>
+        </div>
+        <div class="conn text-center mt-1">
+            <p>🎉</p>
+            <h3 class="fw-bold">Request Sent!</h3>
+            <p>Here's the team you'll be joining, 213</p>
+        </div>
+        <div class="cottt d-flex justify-content-between mx-3">
+           <div>
+            <p class="pre ">Team Name</p>
+            <h4 class="fw-bold">Pixel Pioneers</h4>
+           </div>
+           <p class="man text-center mt-3 pt-2">👥</p>
+        </div>
+        <p class="ms-3 mt-1"> Team Members</p>
+         <div class="cottt d-flex  mx-3 gx-5">
+             <p class="man text-center mt-3 pt-2 me-2">👥</p>
+       
+             <div>
+            <h6 class="fw-bold">Norhan Ali </h6>
+            <p>📱+20 01028630146</p>
+           
+           </div>
+           
+           </div>
+           
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Nor Ali </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+            <button  type="button" class=" close" data-bs-dismiss="modal"> Close</button>
+        </div>
+      </div>
+    </div>
+ 
+            <!--  -->
+                                   <div class="modal fade" id="exampleModal15" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS401</p>
+        <h3 class="modal-title fw-bold">Web Design</h3>
+        <p>Enter your details to join a team for this course</p>
+        </div>
+        <div class="conn text-center mt-1">
+            <p>🎉</p>
+            <h3 class="fw-bold">Request Sent!</h3>
+            <p>Here's the team you'll be joining, 213</p>
+        </div>
+        <div class="cottt d-flex justify-content-between mx-3">
+           <div>
+            <p class="pre ">Team Name</p>
+            <h4 class="fw-bold">Pixel Pioneers</h4>
+           </div>
+           <p class="man text-center mt-3 pt-2">👥</p>
+        </div>
+        <p class="ms-3 mt-1"> Team Members</p>
+         <div class="cottt d-flex  mx-3 gx-5">
+             <p class="man text-center mt-3 pt-2 me-2">👥</p>
+       
+             <div>
+            <h6 class="fw-bold">Norhan Ali </h6>
+            <p>📱+20 01028630146</p>
+           
+           </div>
+           
+           </div>
+           
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Nor Ali </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+            <button  type="button" class=" close" data-bs-dismiss="modal"> Close</button>
+        </div>
+      </div>
+    </div>
+  
+            <!--  -->
+                                   <div class="modal fade" id="exampleModal14" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS202</p>
+        <h3 class="modal-title fw-bold">C++ Programming</h3>
+        <p>Enter your details to join a team for this course</p>
+        </div>
+        <div class="conn text-center mt-1">
+            <p>🎉</p>
+            <h3 class="fw-bold">Request Sent!</h3>
+            <p>Here's the team you'll be joining, 213</p>
+        </div>
+        <div class="cottt d-flex justify-content-between mx-3">
+           <div>
+            <p class="pre ">Team Name</p>
+            <h4 class="fw-bold">Pixel Pioneers</h4>
+           </div>
+           <p class="man text-center mt-3 pt-2">👥</p>
+        </div>
+        <p class="ms-3 mt-1"> Team Members</p>
+         <div class="cottt d-flex  mx-3 gx-5">
+             <p class="man text-center mt-3 pt-2 me-2">👥</p>
+       
+             <div>
+            <h6 class="fw-bold">Norhan Ali </h6>
+            <p>📱+20 01028630146</p>
+           
+           </div>
+           
+           </div>
+           
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Nor Ali </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+            <button  type="button" class=" close" data-bs-dismiss="modal"> Close</button>
+        </div>
+      </div>
+    </div>
+  
+            <!--  -->
+                            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS202</p>
+        <h3 class="modal-title fw-bold">Object-Oriented Programming</h3>
+        <p>Enter your details to join a team for this course</p>
+        </div>
+        <div class="conn text-center mt-1">
+            <p>🎉</p>
+            <h3 class="fw-bold">Request Sent!</h3>
+            <p>Here's the team you'll be joining, 213</p>
+        </div>
+        <div class="cottt d-flex justify-content-between mx-3">
+           <div>
+            <p class="pre ">Team Name</p>
+            <h4 class="fw-bold">Pixel Pioneers</h4>
+           </div>
+           <p class="man text-center mt-3 pt-2">👥</p>
+        </div>
+        <p class="ms-3 mt-1"> Team Members</p>
+         <div class="cottt d-flex  mx-3 gx-5">
+             <p class="man text-center mt-3 pt-2 me-2">👥</p>
+       
+             <div>
+            <h6 class="fw-bold">Norhan Ali </h6>
+            <p>📱+20 01028630146</p>
+           
+           </div>
+           
+           </div>
+           
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Nor Ali </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+             <button  type="button" class=" close" data-bs-dismiss="modal"> Close</button>
+        </div>
+      </div>
+    </div>
+  
+                                 
+     <!--  -->
+                             <div class="modal fade" id="exampleModal13" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content">
+         <div class="ttop w-100 px-3">
+        <p class="id-courss">CS301</p>
+        <h3 class="modal-title fw-bold">Data Structures</h3>
+        <p>Enter your details to join a team for this course</p>
+        </div>
+        <div class="conn text-center mt-1">
+            <p>🎉</p>
+            <h3 class="fw-bold">Request Sent!</h3>
+            <p>Here's the team you'll be joining, 213</p>
+        </div>
+        <div class="cottt d-flex justify-content-between mx-3">
+           <div>
+            <p class="pre ">Team Name</p>
+            <h4 class="fw-bold">Pixel Pioneers</h4>
+           </div>
+           <p class="man text-center mt-3 pt-2">👥</p>
+        </div>
+        <p class="ms-3 mt-1"> Team Members</p>
+         <div class="cottt d-flex  mx-3 gx-5">
+             <p class="man text-center mt-3 pt-2 me-2">👥</p>
+       
+             <div>
+            <h6 class="fw-bold">Mohamed Ali </h6>
+            <p>📱+20 01028630146</p>
+           
+           </div>
+           
+           </div>
+           
+           <div class="cottt d-flex  mx-3 gx-5 mt-2">
+               <p class="man text-center mt-3 pt-2 me-2">👥</p>
+             <div>
+              <h6 class="fw-bold">Nor Ali </h6>
+              <p>📱+20 01028630146</p>
+             
+             </div>
+             
+          </div>
+          <button  type="button" class=" close" data-bs-dismiss="modal"> Close</button>
+        </div>
+      </div>
+    </div>
+ 
+                               
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>const modals = [
+    { current: "exampleModal",  next: "exampleModal17" }, // Database
+    { current: "exampleModal2", next: "exampleModal16" }, // Modeling
+    { current: "exampleModal3", next: "exampleModal15" }, // Web Design
+    { current: "exampleModal5", next: "exampleModal14" }, // C++
+    { current: "exampleModal6", next: "exampleModal12" }, // OOP
+    { current: "exampleModal7", next: "exampleModal13" }  // Data Structures
+];
+
+modals.forEach(modal => {
+
+    const form = document.querySelector(`#${modal.current} form`);
+
+    form.addEventListener("submit", function (e) {
+
+        e.preventDefault();
+
+        if (form.checkValidity()) {
+
+            bootstrap.Modal.getInstance(document.getElementById(modal.current)).hide();
+
+            new bootstrap.Modal(document.getElementById(modal.next)).show();
+
+        } else {
+
+            form.reportValidity();
+
+        }
+
+    });
+
+});</script>
+</body>
+</html>

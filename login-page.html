@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="CSS/login-page.css">
+    <title>login-page</title>
+</head>
+<body>
+
+    <div class="my-container">
+
+        <h1>Creat your Account</h1>
+        <p class="intro">
+            Join thousands of students on the platform.
+        </p>
+
+        <form action="#" class="form" id="register">
+
+            <div class="inp">
+                <label for="name">Username: </label><br><br>
+                <input  
+                type="text" 
+                name="name" 
+                id="name" 
+                placeholder="Enter a Valid Username" 
+                required>
+            </div>
+
+            <div class="inp">
+                <label for="email">Email: </label><br><br>
+                <input  
+                type="email" 
+                name="email" 
+                id="email" 
+                placeholder="Enter a Valid Email" 
+                required
+                title="Please enter a valid Gmail address.">
+            </div>
+
+            <div class="inp">
+                <label for="password">Password: </label><br><br>
+                <input  
+                type="password" 
+                name="password" 
+                id="password" 
+                placeholder="Enter a Valid Password" 
+                required
+                minlength="8">
+            </div>
+
+            <div class="inp">
+                <label for="ConfirmePass">Confirme Password: </label><br><br>
+                <input  
+                type="password" 
+                name="ConfirmePass" 
+                id="ConfirmePass" 
+                placeholder="Confirme a Password"
+                required
+                minlength="8">
+            </div>
+
+            <div class="inp">
+                <label for="number">Number: </label><br><br>
+                <input  
+                type="tel" 
+                name="number" 
+                id="number" 
+                placeholder="Enter a Valid Number" 
+                required
+                pattern="[0-9]+"
+                maxlength="11"
+                inputmode="numeric"
+                title="Phone number must be exactly 11 digits.">
+            </div>
+
+            <div class="inp">
+                <label for="Department">Department: </label><br><br>
+                <input  type="text" name="Department" id="Department" placeholder="Enter Your Department" required>
+            </div>
+            
+            <div class="inp">
+                <button type="submit" class="btn" id="button">Creat Account</button>
+            </div>
+        </form>
+        <p>Have an account already? <a id="sign-up" href="shahd.html">sign up</a></p>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
+    <script src="JS/login-page.js"></script>
+</body>
+</html>
